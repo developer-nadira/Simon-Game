@@ -73,14 +73,10 @@ function checkAns(idx) {
         h3.innerText = `Highest Score is ${highScore}`;
         }
     }
-
 }
 
-
-
-//--------Btn event Listeners ---------------------------------------------
 function btnPress() {
-    let btn = this;  // btn er scope ei func obdie tai onno btn er sathe clash hbe na
+    let btn = this;
     userFlash(btn);
 
     userColor = btn.getAttribute("id");
