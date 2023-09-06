@@ -8,9 +8,6 @@ body{
 }
 
 .btn-container{
-    /* border: 3px solid black; */
-    /* display: grid;
-    grid-template-columns: auto auto; */
     display: flex;
     justify-content: center;
 }
